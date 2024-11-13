@@ -102,7 +102,7 @@ jobs:
     timeout-minutes: 15
     steps:
       - name: Git - Checkout
-        uses: actions/checkout@v3.0.0
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.ref }}
       - name: Setup - Xcode
